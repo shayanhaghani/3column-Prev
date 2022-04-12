@@ -76,7 +76,7 @@ button {
 }
 
 /* Responsive Design */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 460px) {
   .flex-container {
     display: flex;
     flex-direction: column;
