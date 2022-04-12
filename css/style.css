@@ -74,3 +74,20 @@ button {
   font-weight: semibold;
 
 }
+
+/* Responsive Design */
+@media only screen and (max-width: 400px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container > div.left  {
+    width: 100%;
+  }
+   .flex-container > div.center {
+    width: 100%;
+}
+ .flex-container > div.right {
+    width: 100%;
+}
+
