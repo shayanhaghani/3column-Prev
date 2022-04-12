@@ -91,3 +91,6 @@ button {
     width: 100%;
 }
 
+body, html {
+  overflow-y: scroll; /* Hide vertical scrollbar */
+  overflow-x: scroll; /* Hide horizontal scrollbar */
