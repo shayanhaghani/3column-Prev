@@ -80,15 +80,21 @@ button {
   .flex-container {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
   }
   .flex-container > div.left  {
     width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 10px;
   }
    .flex-container > div.center {
     width: 100%;
+    border-radius: 10px 10px 10px 10px; 
+    margin-bottom: 10px;
 }
  .flex-container > div.right {
     width: 100%;
+    border-radius: 10px 10px 10px 10px; 
 }
 
 body, html {
